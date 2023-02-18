@@ -1,9 +1,10 @@
 {
     "name": "card-flick",
     "type": "module",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "description": "Card-flick is a type of card swipe user interface that allows users to interact with a stack of cards by flicking them left or right. This UI element is commonly used in mobile applications and websites to provide a more intuitive and engaging user experience.",
-    "main": "index.js",
+    "main": "./lib/card-flick.js",
+    "types": "./lib/card-flick.d.ts",
     "scripts": {
         "test": "yarn node --experimental-vm-modules $(yarn bin jest)"
     },

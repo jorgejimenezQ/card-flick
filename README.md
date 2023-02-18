@@ -1,4 +1,10 @@
-# Card-Flick
+# Card-Flick - A lightweight JavaScript library for creating a card swipe UI effect
+
+[![npm version](https://img.shields.io/npm/v/card-flick.svg)](https://www.npmjs.com/package/card-flick)
+[![npm downloads](https://img.shields.io/npm/dm/card-flick.svg)](https://www.npmjs.com/package/card-flick)
+[![Build Status](https://travis-ci.org/jorgejimenezQ/card-flick.svg?branch=master)](https://travis-ci.org/jorgejimenezQ/card-flick)
+[![Coverage Status](https://coveralls.io/repos/github/jorgejimenezQ/card-flick/badge.svg?branch=master)](https://coveralls.io/github/jorgejimenezQ/card-flick?branch=master)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)]
 
 Card-Flick is a lightweight JavaScript library for creating a card swipe user interface (UI) effect in web applications. The library allows users to interact with a stack of cards by flicking them left or right on touch-enabled devices or by using the mouse on desktop computers.
 

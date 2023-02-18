@@ -13,3 +13,6 @@ node_modules
 # ignore jest.config.mjs
 # ignore coverage
 coverage
+
+# ignore module-tests
+module-tests
