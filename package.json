@@ -1,12 +1,12 @@
 {
     "name": "card-flick",
-    "type": "module",
     "version": "1.2.0",
     "description": "Card-flick is a type of card swipe user interface that allows users to interact with a stack of cards by flicking them left or right. This UI element is commonly used in mobile applications and websites to provide a more intuitive and engaging user experience.",
-    "main": "./lib/card-flick.js",
-    "types": "./lib/card-flick.d.ts",
+    "main": "dis/card-flick.js",
+    "module": "lib/card-flick.js",
     "scripts": {
-        "test": "yarn node --experimental-vm-modules $(yarn bin jest)"
+        "test": "yarn node --experimental-vm-modules $(yarn bin jest)",
+        "build": "webpack --config ./webpack.config.js --mode production"
     },
     "repository": {
         "type": "git",
@@ -30,7 +30,11 @@
     },
     "homepage": "https://github.com/jorgejimenezQ/card-flick#readme",
     "devDependencies": {
+        "@babel/preset-env": "^7.20.2",
+        "babel-loader": "^9.1.2",
         "jest": "^29.4.3",
-        "jest-environment-jsdom": "^29.4.3"
+        "jest-environment-jsdom": "^29.4.3",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1"
     }
 }
