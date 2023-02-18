@@ -1,0 +1,19 @@
+.card-flick-container {
+  position: relative;
+  height: 400px;
+  width: 200px;
+  margin: auto;
+}
+
+.card-flick-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  transition: all 0.5s ease;
+  padding: 20px;
+}
+
+/* The fly-off animation sends the card flying  */
