@@ -5,8 +5,14 @@
 }
 
 .card {
-    background-color: red;
     padding: 20px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    /* shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* The fly-off animation sends the card flying  */

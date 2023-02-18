@@ -1,30 +1,35 @@
 {
-  "name": "card-flick",
-  "version": "1.0.0",
-  "description": "Card-flick is a type of card swipe user interface that allows users to interact with a stack of cards by flicking them left or right. This UI element is commonly used in mobile applications and websites to provide a more intuitive and engaging user experience.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jorgejimenezQ/card-flick.git"
-  },
-  "keywords": [
-    "card",
-    "swipe",
-    "card",
-    "flick",
-    "card",
-    "card",
-    "effect",
-    "swipe",
-    "effect"
-  ],
-  "author": "Jorge Jimenez",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jorgejimenezQ/card-flick/issues"
-  },
-  "homepage": "https://github.com/jorgejimenezQ/card-flick#readme"
+    "name": "card-flick",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "Card-flick is a type of card swipe user interface that allows users to interact with a stack of cards by flicking them left or right. This UI element is commonly used in mobile applications and websites to provide a more intuitive and engaging user experience.",
+    "main": "index.js",
+    "scripts": {
+        "test": "yarn node --experimental-vm-modules $(yarn bin jest)"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jorgejimenezQ/card-flick.git"
+    },
+    "keywords": [
+        "card",
+        "swipe",
+        "card",
+        "flick",
+        "card",
+        "card",
+        "effect",
+        "swipe",
+        "effect"
+    ],
+    "author": "Jorge Jimenez",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jorgejimenezQ/card-flick/issues"
+    },
+    "homepage": "https://github.com/jorgejimenezQ/card-flick#readme",
+    "devDependencies": {
+        "jest": "^29.4.3",
+        "jest-environment-jsdom": "^29.4.3"
+    }
 }

@@ -1,0 +1,17 @@
+# ignore node_modules
+node_modules
+
+# ignore .env
+.env
+
+# ignore .env.local
+.env.local
+
+# ignore .env.development
+.env.development
+
+## jest
+# ignore jest.config.mjs
+jest.config.mjs
+# ignore coverage
+coverage
