@@ -1,0 +1,12 @@
+#card-container {
+    height: 400px;
+    width: 200px;
+    margin: auto;
+}
+
+.card {
+    background-color: red;
+    padding: 20px;
+}
+
+/* The fly-off animation sends the card flying  */
