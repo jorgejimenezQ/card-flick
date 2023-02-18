@@ -15,7 +15,6 @@ Open-source under the MIT license.
 To install Card-Flick, simply run the following command:
 
 ```bash
-Copy code
 npm install card-flick
 ```
 
