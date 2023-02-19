@@ -1,10 +1,8 @@
 # Card-Flick - A lightweight JavaScript library for creating a card swipe UI effect
 
 [![npm version](https://img.shields.io/npm/v/card-flick.svg)](https://www.npmjs.com/package/card-flick)
-[![npm downloads](https://img.shields.io/npm/dm/card-flick.svg)](https://www.npmjs.com/package/card-flick)
-[![Build Status](https://travis-ci.org/jorgejimenezQ/card-flick.svg?branch=master)](https://travis-ci.org/jorgejimenezQ/card-flick)
-[![Coverage Status](https://coveralls.io/repos/github/jorgejimenezQ/card-flick/badge.svg?branch=master)](https://coveralls.io/github/jorgejimenezQ/card-flick?branch=master)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]
+[![Build Status](https://github.com/jorgejimenezQ/card-flick/actions/workflows/test.yml/badge.svg)](https://github.com/jorgejimenezQ/card-flick/actions/workflows/test.yml)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 Card-Flick is a lightweight JavaScript library for creating a card swipe user interface (UI) effect in web applications. The library allows users to interact with a stack of cards by flicking them left or right on touch-enabled devices or by using the mouse on desktop computers.
 
@@ -28,12 +26,12 @@ Alternatively, you can download the latest version from the [GitHub repository](
 
 ## Usage
 
-To use Card-Flick in your web application, you have a few options:
+To use Card-Flick in your web application, first, create a container element that contains the cards you want to swipe. Then, you have two options:
 
--   Use the pre-built JavaScript and CSS files in the dist folder.
+-   Use the already bundled files in the dist folder.
 -   Use a module bundler like Webpack or Browserify to build the library from the source files in the src folder.
 
-### Using the Pre-Built Files
+### Using the bundled files
 
 To use this option, you need to include the JavaScript file in your HTML document and initialize the library on a container element that contains the cards you want to swipe. Here's an example:
 
@@ -53,10 +51,8 @@ html Copy code
             <div class="card">Card 3</div>
             <!-- add more cards here -->
         </div>
-
-        <script type="module">
-            import CardFlick from 'path/to/card-flick.js'
-
+        <script src="./node_modules/card-flick/dist/card-flick.js"></script>
+        <script>
             var cardContainer = document.getElementById('card-container')
             var cards = document.querySelectorAll('.card')
 
@@ -71,7 +67,7 @@ html Copy code
 If you're using a module bundler like Webpack or Rollup, you can load Card-Flick as a module:
 
 ```javascript
-import CardFlick from '../lib/card-flick.js'
+import CardFlick from 'card-flick'
 
 const cardContainer = document.querySelector('#card-container')
 const cards = document.querySelectorAll('.card')
