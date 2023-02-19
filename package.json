@@ -1,7 +1,7 @@
 {
     "name": "card-flick",
     "type": "module",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "Card-flick is a type of card swipe user interface that allows users to interact with a stack of cards by flicking them left or right. This UI element is commonly used in mobile applications and websites to provide a more intuitive and engaging user experience.",
     "main": "dis/card-flick.js",
     "module": "lib/card-flick.js",
@@ -16,13 +16,12 @@
     "keywords": [
         "card",
         "swipe",
-        "card",
         "flick",
-        "card",
-        "card",
         "effect",
-        "swipe",
-        "effect"
+        "ui",
+        "card-flicker",
+        "card-swipper",
+        "card-swiped"
     ],
     "author": "Jorge Jimenez",
     "license": "MIT",
